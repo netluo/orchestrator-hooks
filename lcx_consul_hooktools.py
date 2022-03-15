@@ -97,8 +97,3 @@ if __name__ == '__main__':
     if args.set_consul_kv:
         hooktools.setWeight()
         hooktools.printWeight()
-    # if args.set_ha_template:
-    #     hooktools
-    # if args.filename:
-    #     # with open(args.filename) as f:
-    #     args.filename.write('test01\n')
